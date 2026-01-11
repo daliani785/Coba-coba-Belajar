@@ -2,35 +2,39 @@
 <html lang="id">
 <head>
     <meta charset="UTF-8">
-    <title>Perpustakaan Buku</title>
+    <title>KoleksiKu</title>
     <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
 
-<div class="container">
-    <h1>Perpustakaan Buku</h1>
+    <!-- Header -->
+    <h1>KoleksiKu</h1>
 
-    <div class="form">
-        <input type="text" id="judul" placeholder="Judul Buku">
-        <input type="text" id="penulis" placeholder="Penulis">
-        <button onclick="tambahBuku()">Tambah Buku</button>
+    <!-- Menu Kategori -->
+    <div>
+        <button>Buku</button>
+        <button>Film</button>
+        <button>Animasi</button>
     </div>
 
-    <table>
-        <thead>
-            <tr>
-                <th>No</th>
-                <th>Judul</th>
-                <th>Penulis</th>
-                <th>Aksi</th>
-            </tr>
-        </thead>
-        <tbody id="daftarBuku">
-            
-        </tbody>
-    </table>
-</div>
+    <!-- Daftar Koleksi -->
+    <div>
+        <div>
+            <img src="https://via.placeholder.com/150" alt="Sampul">
+            <h3>Judul Koleksi</h3>
+            <p>Buku</p>
+        </div>
 
+        <div>
+            <img src="https://via.placeholder.com/150" alt="Sampul">
+            <h3>Judul Koleksi</h3>
+            <p>Film</p>
+        </div>
+    </div>
+
+    <!-- Tombol Tambah -->
+    <button>+ Tambah Koleksi</button>
 
 </body>
 </html>
