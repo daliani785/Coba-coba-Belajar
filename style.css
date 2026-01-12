@@ -44,3 +44,32 @@ body {
     height: auto;
 }
 
+/* KOLEKSI */
+.koleksi {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 15px;
+}
+
+.card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+/* TOMBOL TAMBAH */
+.tambah {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.tambah button {
+    padding: 10px 18px;
+    font-size: 14px;
+    cursor: pointer;
+}
