@@ -8,33 +8,46 @@
 </head>
 <body>
 
-    <!-- Header -->
-    <h1>KoleksiKu</h1>
-
-    <!-- Menu Kategori -->
-    <div>
-        <button>Buku</button>
-        <button>Film</button>
-        <button>Animasi</button>
+    <!-- HEADER -->
+    <div class="header">
+        <h1>MediaList</h1>
+        <p>Daftar tontonan & bacaan pribadimu</p>
     </div>
 
-    <!-- Daftar Koleksi -->
-    <div>
-        <div>
-            <img src="https://via.placeholder.com/150" alt="Sampul">
-            <h3>Judul Koleksi</h3>
-            <p>Buku</p>
-        </div>
-
-        <div>
-            <img src="https://via.placeholder.com/150" alt="Sampul">
-            <h3>Judul Koleksi</h3>
-            <p>Film</p>
-        </div>
+    <!-- MENU KATEGORI -->
+    <div class="kategori">
+        <button>Semua</button>
+        <button>Bacaan</button>
+        <button>Tontonan</button>
     </div>
 
-    <!-- Tombol Tambah -->
-    <button>+ Tambah Koleksi</button>
+    <!-- DAFTAR MEDIA -->
+    <div class="koleksi">
+
+        <div class="card">
+            <img src="https://via.placeholder.com/150">
+            <h3>Judul Buku</h3>
+            <p>Bacaan</p>
+        </div>
+
+        <div class="card">
+            <img src="https://via.placeholder.com/150">
+            <h3>Judul Film</h3>
+            <p>Tontonan</p>
+        </div>
+
+        <div class="card">
+            <img src="https://via.placeholder.com/150">
+            <h3>Judul Animasi</h3>
+            <p>Tontonan</p>
+        </div>
+
+    </div>
+
+    <!-- TOMBOL TAMBAH -->
+    <div class="tambah">
+        <button>+ Tambah Media</button>
+    </div>
 
 </body>
 </html>
