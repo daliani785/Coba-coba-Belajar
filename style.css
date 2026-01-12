@@ -14,3 +14,15 @@ body {
     font-size: 14px;
 }
 
+/* KATEGORI */
+.kategori {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.kategori button {
+    padding: 8px 14px;
+    margin: 5px;
+    cursor: pointer;
+}
+
