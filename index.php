@@ -49,5 +49,37 @@
         <button>+ Tambah Media</button>
     </div>
 
+    <!-- FORM TAMBAH MEDIA -->
+    <div class="form-container">
+        <h2>Tambah Media</h2>
+
+        <form>
+            <label>Judul Media</label><br>
+            <input type="text" placeholder="Masukkan judul media"><br><br>
+
+            <label>Jenis</label><br>
+            <select>
+                <option>Bacaan</option>
+                <option>Tontonan</option>
+            </select><br><br>
+
+            <label>Kategori</label><br>
+            <select>
+                <option>Buku</option>
+                <option>Film</option>
+                <option>Animasi</option>
+            </select><br><br>
+
+            <label>Link Sampul</label><br>
+            <input type="text" placeholder="https://..."><br><br>
+
+            <label>Sinopsis</label><br>
+            <textarea rows="4" placeholder="Tulis sinopsis singkat"></textarea><br><br>
+
+            <button type="submit">Simpan Media</button>
+        </form>
+    </div>
+
+
 </body>
 </html>
