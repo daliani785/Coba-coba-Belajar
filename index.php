@@ -2,7 +2,7 @@
 <html lang="id">
 <head>
     <meta charset="UTF-8">
-    <title>KoleksiKu</title>
+    <title> KoleksiKu </title>
     <link rel="stylesheet" href="style.css">
 
 </head>
