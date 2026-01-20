@@ -32,6 +32,12 @@
 
         <div class="card">
             <img src="https://via.placeholder.com/150">
+            <h3>Judul Komik</h3>
+            <p>Bacaan</p>
+        </div>
+
+        <div class="card">
+            <img src="https://via.placeholder.com/150">
             <h3>Judul Film</h3>
             <p>Tontonan</p>
         </div>
