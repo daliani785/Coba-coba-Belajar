@@ -86,3 +86,24 @@ body {
     margin-bottom: 15px;
 }
 
+/* FORM */
+.form-container {
+    margin-top: 40px;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.form-container input,
+.form-container select,
+.form-container textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+
