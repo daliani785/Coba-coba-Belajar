@@ -74,6 +74,12 @@ body {
     cursor: pointer;
 }
 
+/* DETAIL MEDIA */
+.detail-media {
+    display: none;
+    margin-top: 30px;
+}
+
 /* FORM */
 .form-container {
     margin-top: 40px;
