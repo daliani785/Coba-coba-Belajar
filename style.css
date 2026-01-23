@@ -74,6 +74,11 @@ body {
     cursor: pointer;
 }
 
+.detail-content {
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
 /* DETAIL MEDIA */
 .detail-media {
     display: none;
