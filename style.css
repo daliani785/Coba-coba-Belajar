@@ -79,6 +79,11 @@ body {
     padding: 20px;
 }
 
+.detail-content img {
+    display: block;
+    margin-bottom: 15px;
+}
+
 /* DETAIL MEDIA */
 .detail-media {
     display: none;
