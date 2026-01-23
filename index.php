@@ -55,6 +55,24 @@
         <button>+ Tambah Media</button>
     </div>
 
+    <!-- DETAIL MEDIA -->
+    <div class="detail-media" id="detailMedia">
+        <button id="btnKembali">← Kembali</button>
+
+        <div class="detail-content">
+            <img src="https://via.placeholder.com/200">
+            <h2>Judul Media</h2>
+            <p><strong>Jenis:</strong> Bacaan</p>
+            <p><strong>Kategori:</strong> Buku</p>
+            <p><strong>Sinopsis:</strong></p>
+            <p>
+                Ini adalah sinopsis media yang dipilih.
+                Nantinya akan diisi sesuai data.
+            </p>
+        </div>
+    </div>
+
+
     <!-- FORM TAMBAH MEDIA -->
     <div class="form-container">
         <h2>Tambah Media</h2>
