@@ -82,7 +82,7 @@
             <label>Sinopsis</label><br>
             <textarea rows="4" placeholder="Tulis sinopsis singkat"></textarea><br><br>
 
-            <button type="submit">Simpan Media</button>
+            <button type="submit"> Simpan Media </button>
         </form>
     </div>
 
