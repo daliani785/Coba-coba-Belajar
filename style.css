@@ -90,6 +90,11 @@ body {
     margin-top: 30px;
 }
 
+.detail-media button {
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
 /* FORM */
 .form-container {
     margin-top: 40px;
