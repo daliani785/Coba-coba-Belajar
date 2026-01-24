@@ -95,6 +95,11 @@ body {
     cursor: pointer;
 }
 
+.detail-content {
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
 /* FORM */
 .form-container {
     margin-top: 40px;
