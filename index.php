@@ -42,7 +42,7 @@
             <p>Tontonan</p>
         </div>
 
-        <div class="card">
+        <div class="card" onclick="bukaDetail()">
             <img src="https://via.placeholder.com/150">
             <h3>Judul Animasi</h3>
             <p>Tontonan</p>
