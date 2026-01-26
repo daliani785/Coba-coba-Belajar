@@ -113,7 +113,11 @@
             document.getElementById("detailMedia").style.display = "block";
         }
 
-        
+        document.getElementById("btnKembali").addEventListener("click", function () {
+            document.getElementById("detailMedia").style.display = "none";
+            document.querySelector(".koleksi").style.display = "grid";
+            document.querySelector(".kategori").style.display = "block";
+        });
     </script>
 
 
